@@ -22,7 +22,7 @@ def convert_temp():
         result = fahrenheit_to_celsius(input_temp)
         output_unit = 'celsius'
         
-    return jsonify({"temperature": result, "unit": output_unit})
+    return jsonify({"Temperature: ": result, "Unit": output_unit})
 
 
 if __name__ == '__main__':
